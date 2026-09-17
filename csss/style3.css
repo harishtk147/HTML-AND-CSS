@@ -1,0 +1,50 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.regform{
+    width: 500px;
+    margin: 250px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px 20px 30px;
+    color: white;
+    font-size: 30px;
+}
+.regform h3{
+    /* text-align: center; */
+    color: #E29578;
+}
+.regform .d{
+    display:block;
+}
+.input input{
+    width: 100%;
+    font-size:1.2em;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+input:focus{
+    background-color: lightblue;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    background-color: #83c583BE;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #006d77;
+}
+
+.radio input{
+    accent-color: #83c583BE;
+    transform: scale(1.5);
+}
